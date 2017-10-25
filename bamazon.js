@@ -74,6 +74,7 @@ function numberSearch(itemSearch) {
 
 function userQuantity(userPurchase) {
     console.log("Input the quantity to  purchase.");
+	// need to alter code to pause at the asynchronous inquirer.prompt function   
     inquirer.prompt([{
         type: "input",
         name: "userQuantityInput",
